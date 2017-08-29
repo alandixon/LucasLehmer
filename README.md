@@ -19,7 +19,7 @@ Notes:
 * For these tests, I ran the app with only the -t and -p options. Adding -l and particularly -x and -d slows things down considerably with larger numbers as there is a lot of console output.
 
 | Candidate prime | Mersenne prime (Mp) | Time taken |
-| ---------------: | --------------: | ------: | ----: |
+| ---------------: | --------------: | ------: |
 | 1279  | 1040...9087 (386 digits) | 0.025s |
 | 9689 | 4782...4111 (2917 digits) | 8.5s |
 | 21701 | 4486...2751 (6533 digits) | 1m 33s |
