@@ -1,5 +1,7 @@
 ﻿using System;
+using System.Linq;
 using System.Numerics;
+using System.Text;
 
 namespace LucasLehmer
 {
@@ -50,10 +52,14 @@ namespace LucasLehmer
                     somethingPrinted = true;
                 }
 
-                //if (options.showSiInBin)
-                //{
-                //    somethingPrinted = true;
-                //}
+                if (options.showSiInBin)
+                {
+                    string hexString = Si.ToString("X");
+
+                    string binarystring = Helper.Hex2Bin(hexString, true);
+                    Console.Write(" 0b" + binarystring);
+                    somethingPrinted = true;
+                }
 
                 if (somethingPrinted)
                 {
@@ -93,5 +99,6 @@ namespace LucasLehmer
                 Console.WriteLine(timeTakenString);
             }
         }
+
     }
 }

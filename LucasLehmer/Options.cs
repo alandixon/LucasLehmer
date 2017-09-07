@@ -24,8 +24,8 @@ namespace LucasLehmer
         [Option('r', "showRemainder", HelpText = "Show final remainder")]
         public bool showRemainder { get; set; }
 
-        //[Option('b', "showSiInBin", HelpText = "Show Si in binary")]
-        //public bool showSiInBin { get; set; }
+        [Option('b', "showSiInBin", HelpText = "Show Si in binary")]
+        public bool showSiInBin { get; set; }
 
         [Option('g', "showDigitCount", HelpText = "Show Mp digit count")]
         public bool showDigitCount { get; set; }
