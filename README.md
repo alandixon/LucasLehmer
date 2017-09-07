@@ -37,6 +37,8 @@ Notes:
 
   `-d, --showSiInDec`       //Show Si in decimal after each loop.
 
+  `-b, --showSiInBin`       //Show Si in binary after each loop.
+
   `-g, --showDigitCount`    //Show Mp digit count if Mp found.
 
 ## Credits
